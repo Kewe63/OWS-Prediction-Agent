@@ -57,3 +57,7 @@ Since the project uses Vite, the `dist/` folder generated after the `build` comm
 
 ## 🤝 Hackathon Objectives
 This project is actively being developed to meet the goals of the **OpenWallet Hackathon**, combining the power of artificial intelligence with Web3 technologies.
+
+---
+
+- Built with ❤️ for the OWS Hackathon.
