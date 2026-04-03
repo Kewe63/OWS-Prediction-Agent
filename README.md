@@ -1,7 +1,6 @@
 # OWS Prediction Agent
 
-The OWS Prediction Agent is an AI-powered prediction market tool developed for the OpenWallet Standard (OWS) Hackathon. This project provides OWS wallet integration for secure, keyless transactions, while visualizing AI market analysis through a dynamic, premium user interface featuring an "Order vs. Chaos" theme.
-
+The OWS Prediction Agent is an AI-powered prediction market tool developed for the OpenWallet Standard (OWS) Hackathon. 
 ## 🚀 Features
 
 - **AI-Powered Predictions:** Smart market analysis and an AI-driven prediction engine.
