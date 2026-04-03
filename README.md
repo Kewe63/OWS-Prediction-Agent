@@ -40,6 +40,22 @@ To launch the application in development mode:
 ```bash
 npm run dev
 ```
+## 📂 Project Structure
+
+```text
+OWS-Prediction-Agent/
+├── public/                 # Static assets
+├── src/                    # Source code
+│   ├── assets/             # Images, icons, and media
+│   ├── components/         # Reusable React components (e.g., Entropy.jsx)
+│   ├── App.jsx             # Main container & UI orchestration
+│   ├── App.css             # Global styles and layout
+│   ├── index.css           # Custom CSS and design tokens (Glassmorphism)
+│   └── main.jsx            # Application entry point
+├── agent-server.js         # Backend / Agent communication interface
+├── index.html              # Vite entry HTML
+├── package.json            # Project dependencies and scripts
+└── vite.config.js          # Vite configuration
 
 Your application will usually start at [http://localhost:5173](http://localhost:5173). Open this address in your browser to view the project.
 
