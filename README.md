@@ -6,7 +6,7 @@ The OWS Prediction Agent is an AI-powered prediction market tool developed for t
 
 - **AI-Powered Predictions:** Smart market analysis and an AI-driven prediction engine.
 - **OWS Wallet Integration:** Secure, keyless, and seamless transaction experience.
-- **Premium User Interface:** Modern, glassmorphic, and interactive UI featuring the "Order vs. Chaos" dynamic background.
+- **AI integration:** AI agents can be integrated, which you can train in the areas you want..
 - **Real-time Data Visualization:** Interactive charts powered by `recharts` and `lightweight-charts`.
 - **Next-Gen Tech Stack:** High-performance application built with Vite + React.
 
