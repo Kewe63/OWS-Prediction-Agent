@@ -67,6 +67,68 @@ To build the project for production:
 npm run build
 ```
 
+## 📂 System Architecture & Workflow
+
+```text
++------------------------------+
+|           1. User            |
++--------------+---------------+
+               |
+             opens
+               v
++--------------+---------------+
+|   2. OWS Wallet Connection   |
++--------------+---------------+
+               |
+           connected
+               v
++--------------+---------------+
+|    3. Fetch Market Data      | <-----+
++--------------+---------------+       |
+               |                       |
+           data ready                  |
+               v                       |
++--------------+---------------+       |
+|   4. AI Prediction Engine    |       |
++--------------+---------------+       |
+               |                       |
+         recommendation             monitors
+               v                       |
++--------------+---------------+       |
+|        5. UI Display         |       |
++--------------+---------------+       |
+               |                       |
+            decision                   |
+               v                       |
++--------------+---------------+       |
+|      6. Execute Trade?       |  No   |
+|        < YES / NO >          |-------+
++--------------+---------------+
+               |
+              Yes
+               v
++--------------+---------------+
+|     7. Create Tx Request     |
++--------------+---------------+
+               |
+        forward request
+               v
++--------------+---------------+
+|      8. OWS Rule Engine      |
++--------------+---------------+
+               |
+             signed
+               v
++--------------+---------------+
+|    9. Send to Blockchain     |
++--------------+---------------+
+               |
+               v
++--------------+---------------+
+|    Transaction Completed     |
++------------------------------+
+```
+
 ## 🏗️ Deployment
 
 Since the project uses Vite, the `dist/` folder generated after the `build` command can be easily deployed to static hosts like Vercel, Netlify, or GitHub Pages.
